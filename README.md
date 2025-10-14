@@ -17,7 +17,7 @@
 **Core topics to learn:**
 
 * \[x] Print text to the console
-* \[x] Variables, types, and operators
+* \[ ] Variables, types, and operators
 * \[ ] If/else statements
 * \[ ] Loops (for, while, foreach)
 * \[ ] Functions and methods
