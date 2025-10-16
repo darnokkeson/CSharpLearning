@@ -48,11 +48,18 @@
             int[,] twoDimensional = { { 1, 2 }, { 3, 4 } };
             Console.WriteLine(twoDimensional[0,0]);
 
-            //
-            // WHAT IS JAGGED ? int[][] ???
-            // ended in 1:24
-            // https://www.youtube.com/watch?v=GhQdlIFylQ8&t=913s
-            //
+
+            // JAGGED - collection of rows with DIFFERENT numbers of columns
+            // define amount of rows (in first [] bracket)
+            int[][] jaggedArray = new int[3][];
+
+            // define amount of columns and contents
+            jaggedArray[0] = new int[] { 1, 2, 4 };
+            jaggedArray[1] = new int[] { 3, 4 };
+            jaggedArray[2] = new int[] { 5, 6, 9 };
+            // jaggedArray[3] = it will doesnt work
+
+            Console.WriteLine(jaggedArray[0][1]);
 
             // WriteLine Tips
 
