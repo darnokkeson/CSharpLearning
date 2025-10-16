@@ -20,7 +20,7 @@
 * \[x] Variables, types, and operators
 * \[ ] If/else statements
 * \[ ] Loops (for, while, foreach)
-* \[ ] Functions and methods
+* \[x] Functions and methods
 * \[x] Arrays and lists
 
 **Example tasks:**
