@@ -19,7 +19,7 @@
 * \[x] Print text to the console
 * \[x] Variables, types, and operators
 * \[x] If/else statements
-* \[ ] Loops (for, while, foreach)
+* \[x] Loops (for, while, foreach)
 * \[x] Functions and methods
 * \[x] Arrays and lists
 
