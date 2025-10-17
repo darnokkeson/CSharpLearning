@@ -26,7 +26,7 @@
 **Example tasks:**
 
 * \[x] Write a program that counts even numbers in a list
-* \[ ] Build a simple calculator
+* \[x] Build a simple calculator
 * \[ ] Create a "guess the number" game
 
 ---
