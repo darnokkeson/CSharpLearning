@@ -1,11 +1,21 @@
-﻿namespace ConsoleApp1
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace ConsoleApp1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Welcome();
-            Game();
+            TestUserOut();
+            //Console.WriteLine(UserOut());
+            //Welcome();
+            //Game();
+        }
+
+        static void TestUserOut()
+        {
+            int readValue = UserOut();
+            Console.WriteLine(readValue);
         }
 
         // guess the number - GAME
@@ -62,6 +72,29 @@
         {
             Console.WriteLine("We’re gonna play 'Guess The Number' game.");
             Console.WriteLine("Guess the number from scope 1 - 100.");
+        }
+
+        static int UserOut()
+        {
+            int userNumber;
+            string userInput;
+
+            while (true)
+            {
+                Console.WriteLine("Enter a number: ");
+                userInput = Console.ReadLine();
+
+                if (int.TryParse(userInput, out userNumber))
+                {
+                    Console.WriteLine($"You entered a number: {userNumber}");
+                    return userNumber;
+                    //break;
+                }
+                else
+                {
+                    Console.WriteLine("That's not a valid number!");
+                }
+            }
         }
     }
 }
