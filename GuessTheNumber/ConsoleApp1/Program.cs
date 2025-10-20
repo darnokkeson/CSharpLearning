@@ -11,6 +11,8 @@ namespace ConsoleApp1
         }
 
         // guess the number - GAME
+        // generating random number and statement for guessing this number 
+        // with counting of moves
         static void Guess()
         {
             Random random = new Random();
@@ -43,6 +45,7 @@ namespace ConsoleApp1
             }
         }
 
+        // return only int of user input and ask agan when not int
         static int UserOut()
         {
             int userNumber;

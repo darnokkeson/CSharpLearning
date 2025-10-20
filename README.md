@@ -27,7 +27,7 @@
 
 * \[x] Write a program that counts even numbers in a list
 * \[x] Build a simple calculator
-* \[ ] Create a "guess the number" game
+* \[x] Create a "guess the number" game
 
 ---
 
