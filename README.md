@@ -37,7 +37,7 @@
 
 * \[ ] Classes, objects, and inheritance
 * \[ ] Interfaces and abstract classes
-* \[ ] Exception handling
+* \[x] Exception handling
 * \[ ] Dictionaries and sets
 * \[ ] File I/O (read/write text files)
 
