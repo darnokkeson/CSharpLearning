@@ -35,7 +35,7 @@
 
 **Core topics to learn:**
 
-* \[ ] Classes, objects, and inheritance
+* \[x] Classes, objects, and inheritance
 * \[ ] Interfaces and abstract classes
 * \[x] Exception handling
 * \[ ] Dictionaries and sets
