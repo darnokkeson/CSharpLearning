@@ -72,6 +72,6 @@ namespace ConsoleApp1
         {
             Console.WriteLine("We’re gonna play 'Guess The Number' game.");
             Console.WriteLine("Guess the number from scope 1 - 100.");
-        }
+        }  
     }
 }
