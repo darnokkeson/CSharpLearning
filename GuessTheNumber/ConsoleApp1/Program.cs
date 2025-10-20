@@ -6,73 +6,45 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestUserOut();
-            //Console.WriteLine(UserOut());
             //Welcome();
-            //Game();
-        }
-
-        static void TestUserOut()
-        {
-            int readValue = UserOut();
-            Console.WriteLine(readValue);
+            Guess();
         }
 
         // guess the number - GAME
-        static void Game()
+        static void Guess()
         {
             Random random = new Random();
             int randomNumber = random.Next(1, 100);
-            int userNumber;
-            string userInput;
+            int moves = 0;
 
             Console.WriteLine(randomNumber);
 
-            // I have to make this loop like as a seperated function with
-            // return of userNumber
-            while (true)
-            {
-                Console.WriteLine("Enter a number: ");
-                userInput = Console.ReadLine();
-
-                if (int.TryParse(userInput, out userNumber))
-                {
-                    Console.WriteLine($"You entered a number: {userNumber}");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("That's not a valid number!");
-                }
-            }
-
 
             while (true)
             {
+                int userNumber = UserOut();
 
                 // I have to put here function with return of userNumber
 
                 if (randomNumber == userNumber)
                 {
-                    Console.WriteLine($"is exactly {randomNumber}");
+                    moves++;
+                    Console.WriteLine($"it's exactly {randomNumber}. You did {moves} moves.");
                     break;
                 }
                 else if (randomNumber > userNumber)
                 {
+                    moves++;
                     Console.WriteLine("Too low");
                 }
                 else
                 {
+                    moves++;
                     Console.WriteLine("Too High");
                 }
             }
         }
 
-        static void Welcome()
-        {
-            Console.WriteLine("We’re gonna play 'Guess The Number' game.");
-            Console.WriteLine("Guess the number from scope 1 - 100.");
-        }
 
         static int UserOut()
         {
@@ -88,13 +60,18 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine($"You entered a number: {userNumber}");
                     return userNumber;
-                    //break;
                 }
                 else
                 {
                     Console.WriteLine("That's not a valid number!");
                 }
             }
+        }
+
+        static void Welcome()
+        {
+            Console.WriteLine("We’re gonna play 'Guess The Number' game.");
+            Console.WriteLine("Guess the number from scope 1 - 100.");
         }
     }
 }
