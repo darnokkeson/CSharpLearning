@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //Welcome();
+            Welcome();
             Guess();
         }
 
@@ -17,14 +17,12 @@ namespace ConsoleApp1
             int randomNumber = random.Next(1, 100);
             int moves = 0;
 
-            Console.WriteLine(randomNumber);
-
+            // debug look
+            // Console.WriteLine(randomNumber);
 
             while (true)
             {
                 int userNumber = UserOut();
-
-                // I have to put here function with return of userNumber
 
                 if (randomNumber == userNumber)
                 {
@@ -44,7 +42,6 @@ namespace ConsoleApp1
                 }
             }
         }
-
 
         static int UserOut()
         {
