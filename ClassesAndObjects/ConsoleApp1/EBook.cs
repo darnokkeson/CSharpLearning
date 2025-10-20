@@ -27,5 +27,11 @@ namespace ConsoleApp1
             }
             return false;
         }
+
+        // Overrided Method
+        public override void Reading()
+        {
+            Console.WriteLine("You are reading digital ebook");
+        }
     }
 }

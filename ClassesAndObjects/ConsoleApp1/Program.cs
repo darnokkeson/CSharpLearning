@@ -17,6 +17,10 @@
 
             Console.WriteLine(eBook1.IsDigital());
 
+            book1.Reading();
+
+            eBook1.Reading();
+
         }
     }
 }

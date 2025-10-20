@@ -29,5 +29,11 @@ namespace ConsoleApp1
             }
             return false;
         }
+
+        // Method for overriding (thanks 'virtual')
+        public virtual void Reading()
+        {
+            Console.WriteLine("You are reading paper book");
+        }
     }
 }
