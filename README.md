@@ -39,7 +39,7 @@
 * \[x] Get and Set
 * \[ ] Interfaces and abstract classes
 * \[x] Exception handling
-* \[ ] Dictionaries and sets
+* \[x] Dictionaries and sets
 * \[ ] File I/O (read/write text files)
 
 **Example tasks:**
