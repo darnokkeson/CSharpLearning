@@ -40,6 +40,7 @@
 * \[x] Interfaces and abstract classes
 * \[x] Exception handling
 * \[x] Dictionaries and sets
+* \[x] Generics
 * \[ ] File I/O (read/write text files)
 
 **Example tasks:**
