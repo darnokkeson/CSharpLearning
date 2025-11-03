@@ -41,6 +41,7 @@
 * \[x] Exception handling
 * \[x] Dictionaries and sets
 * \[x] Generics
+* \[x] ref out in
 * \[ ] File I/O (read/write text files)
 
 **Example tasks:**
